@@ -1,0 +1,449 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, p{
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.head-background{
+	background-image: url(img/boise.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 900px;
+	position: relative;
+}
+.margin-top{
+	margin-top: 50px;
+}
+.margin-bottom{
+	margin-bottom: 50px;
+}
+.padding-top{
+	padding-top: 50px;
+}
+.padding-bottom{
+	padding-bottom: 50px;
+}
+.hr{
+	border-bottom: 4px solid #2c99d4;
+	border-radius: 2px;
+	margin: 20px 0;
+}
+.inline{
+	display: inline;
+}
+.blue{
+	color: #2c99d4;
+}
+.hover-gradient:hover{
+	background: -webkit-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .8));
+    background: -webkit-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .8));
+  	border: none;
+}
+
+
+/*NavBar*/
+.custom-navbar{
+	color: white;
+}
+.custom-navbar li{
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: 0 25px;
+	display: inline;
+}
+#boise{
+	background-image: url(img/boise1.jpg);
+	background-size: cover;
+	padding: 20px;
+}
+#phoenix{
+	background-image: url(img/phoenix.jpg);
+	background-position: bottom;
+	background-size: cover;
+	padding: 20px;
+}
+#apply{
+	border: 1px solid #2c99d4;
+	color: #2c99d4;
+	border-radius: 1px;
+}
+
+#apply:hover{
+	color: white;
+	background-color: #2c99d4;
+}
+
+
+/*Head Content*/
+.head-content{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.apply-btn{
+	background-color: #2c99d4;
+	opacity: .9;
+	padding: 20px;
+	border-radius: 1px;
+}
+.login-btn{
+	border: 2px solid white;
+	padding: 17px;
+	border-radius: 1px;
+}
+.login-btn:hover{
+	color: black;
+	background-color: white;
+	opacity: .8;
+}
+
+
+
+/*Row 2*/
+.row2 {
+	background-color: #2c99d4;
+}
+.row2 h1{
+	color: white;
+	font-size: 3em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+/*Row 3*/
+.row3{
+	background-image: url(img/row3-background.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.row3 p{
+	color: white;
+	background-color: #333;
+	opacity: .9;
+	padding: 20px;
+	font-size: 1.1em;
+	border-radius: 10px;
+}
+
+
+
+/*Rowaa*/
+.rowaa{
+	background-image: url(img/learn.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+	font-size: 1.09em;
+}
+.rowaa-hr{
+	border-bottom: 2px solid #2c99d4;
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+.rowaa img{
+	height: 50px;
+}
+.learn-box{
+	padding: 20px;
+	border-right: 1px solid #2c99d4;
+	border-left: 1px solid #2c99d4;
+	border-bottom: 1px solid #2c99d4;
+}
+.learn-box:hover{
+	background-color: #2c99d4;
+	opacity: .9;
+}
+
+
+
+/*Rowbb*/
+.rowbb{
+	background-image: url(img/subscribe.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+}
+.packet-btn{
+	border: 2px solid white;
+	color: white;
+	border-radius: 2px;
+	padding: 4px;
+}
+.packet-btn:hover{
+	background-color: white;
+	color: #2c99d4;
+}
+.rowbb input{
+	border-radius: 3px;
+}
+
+
+
+/*Rowcc*/
+.rowcc{
+	background-image: url(img/contact.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+}
+.rowcc i{
+	color: #2c99d4;
+}
+.rowcc-hr{
+	border-bottom: 2px solid #2c99d4;
+	border-radius: 2px;
+	margin: 10px 15px 0 0;
+}
+.rowcc input, textarea{
+	border-radius: 3px;
+}
+.blue-line{
+	height: 70px;
+	width: 3px;
+	background-color: #2c99d4;
+}
+.send-btn{
+	background-color: #2c99d4;
+	color: white;
+	border-radius: 2px;
+	padding: 10px;
+}
+
+
+
+/*RowDD*/
+.rowdd{
+	background-attachment: fixed;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(img/logo-background.png);
+
+}
+.rowdd-hr{
+	border-bottom: 2px solid #2c99d4;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+.rowdd i{
+	color: white;
+}
+.container9 {
+    color: white;
+}
+.facebookI{
+    background-color: #4D6BAB;
+}
+.googleI {
+    background-color: #D34836;
+}
+.instagramI {
+    background-color: #2E5E86;
+}
+.twitterI {
+    background-color: #4EC6F8;
+}
+
+
+
+/*RowEE*/
+.rowee{
+	background-image: url(img/about-us.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+}
+.rowee img{
+	border-radius: 3px;
+	opacity: .9;
+}
+
+
+/*RowFF*/
+.rowff{
+	background-image: url(img/courses.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+}
+.rowff i{
+	opacity: .8;
+}
+#learn-more-btn{
+	background-color: #2c99d4;
+	color: white;
+	border-radius: 2px;
+	padding: 8px;
+}
+.rowff-hr{
+	border-bottom: 1px solid #2c99d4;
+	margin: 30px 0;
+}
+.rowff .large-4:hover{
+	background-color: #111;
+    background: -webkit-linear-gradient(rgba(44, 153, 212, .8), rgba(0, 1, 17, .8));
+    background: -webkit-linear-gradient(rgba(44, 153, 212, .8), rgba(0, 1, 17, .8)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(44, 153, 212, .8), rgba(0, 1, 17, .8)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(44, 153, 212, .8), rgba(0, 1, 17, .8)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(44, 153, 212, .8), rgba(0, 1, 17, .8)); /*Standard*/
+}
+.design{
+	background-color: rgba(51, 51, 51, .8);
+	opacity: .8;
+}
+
+
+/*RowGG*/
+.rowgg{
+	background-image: url(img/boise-skyline.jpg);
+	background-attachment: fixed;
+	position: relative;
+	background-size: cover;
+	color: white;
+}
+.rowgg h1{
+	font-size: 4em;
+	font-weight: 600;
+	margin-top: 300px;
+}
+.enroll-btn{
+	background-color: #2c99d4;
+	color: white;
+	border-radius: 2px;
+	padding: 15px;
+	margin-bottom: 300px;
+}
+
+
+/*RowHH*/
+.rowhh{
+	color: white;
+	background-color: #2c99d4;
+}
+
+
+
+/*RowJJ*/
+.rowjj{
+	background-image: url(img/testimony.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+}
+.rowjj img{
+	width: 300px;
+	border-radius: 150px;
+}
+.testimony-box{
+	padding: 20px;
+	border-right: 1px solid #2c99d4;
+	border-top: 1px solid #2c99d4;
+}
+.testimony-box:hover{
+	background-color: #2c99d4;
+	opacity: .8;
+}
+.rowjj-hr{
+	border-bottom: 2px solid #2c99d4;
+	margin-bottom: 30px;
+}
+
+
+/*RowKK*/
+.rowkk{
+	background-image: url(https://static.pexels.com/photos/6482/black-and-white-man-person-hands.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+	font-size: 3em;
+}
+.rowkk h1{
+	background-color: #2c99d4;
+	margin: 50px;
+	opacity: .9;
+	font-style: italic;
+}
+.rowkk .row{
+	padding: 100px 0;
+}
+
+
+
+
+
+/*RowII*/
+/*.rowii{
+	color: white;
+}
+.rowii h3{
+	margin-bottom: 0;
+	line-height: 80%;
+}
+#boise{
+	background-image: url(img/boise1.jpg);
+	background-size: cover;
+	padding: 60px;
+}
+#phoenix{
+	background-image: url(img/phoenix1.jpg);[]
+	background-size: cover;
+	background-position: center;
+	padding: 60px;
+}*/
+
+
+
+/*Footer*/
+.footer{
+	background-color: #222;
+	color: #999;
+}
+.footer i{
+	padding: 30px;
+}
+
+.blue-line-map {
+	position: absolute;
+	z-index: 1;
+}
+
+
+
+/*ScrollBar*/
+::-webkit-scrollbar {
+    width: 13px;  
+}
+::-webkit-scrollbar-thumb {
+    background: #2c99d4;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+
+
+.hidden{
+	opacity: 0;
+}
+
