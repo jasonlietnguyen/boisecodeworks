@@ -142,11 +142,9 @@ a{
 
 /*Rowaa*/
 .rowaa{
-	background-image: url(img/learn.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+	background-color: #f5f5f5;
 	position: relative;
-	color: white;
+	color: black;
 	font-size: 1.09em;
 }
 .rowaa-hr{
